@@ -23,13 +23,13 @@ Does a correlation exist between the income and the proportion of purchase of fo
 
 ## Proposed dataset 
 
-[Paper's dataset](https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2) 
+[Paper's dataset](https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2):  
 We will need both the Tesco Datasets and the children obesity prevalence one. As there are some cells filled with NA in the children obesity prevalence dataset, we would need to clean the data first. We decided to take children obesity dataset, as the obesity dataset didn't have a sufficient amount of datapoints to infer a good ML model.
 
-[ Household Income Estimates for Small Areas](https://data.london.gov.uk/dataset/household-income-estimates-small-areas)
+[ Household Income Estimates for Small Areas](https://data.london.gov.uk/dataset/household-income-estimates-small-areas): 
 We want to discover if there’s a link between food consumption and average income. We will easily use these datasets as they are ready to process, even though we’ll need to get rid of the ‘£’ sign. One asset of this dataset is that there’s one file for each granularity level, just as in the Tesco dataset.
 
-[Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london)
+[Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london): 
 This dataset enables us to link the geographical areas in London into coordinates in order to create a visualization of London and its sub divisions for our Choropleth maps. We already tested this dataset and we managed to create a scratch visualization of London.      
 
 ## Methods: 
