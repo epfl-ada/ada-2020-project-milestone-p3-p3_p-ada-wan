@@ -24,7 +24,7 @@ Does a correlation exist between the income and the proportion of purchase of fo
 ## Proposed dataset 
 
 [Paper's dataset](https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2) 
-We will need both the Tesco Datasets and the children obesity prevalence one. As there are some cells filled with NA in the children obesity prevalence dataset, we would need to clean the data first. 
+We will need both the Tesco Datasets and the children obesity prevalence one. As there are some cells filled with NA in the children obesity prevalence dataset, we would need to clean the data first. We decided to take children obesity dataset, as the obesity dataset didn't have a sufficient amount of datapoints to infer a good ML model.
 
 [ Household Income Estimates for Small Areas](https://data.london.gov.uk/dataset/household-income-estimates-small-areas)
 We want to discover if there’s a link between food consumption and average income. We will easily use these datasets as they are ready to process, even though we’ll need to get rid of the ‘£’ sign. One asset of this dataset is that there’s one file for each granularity level, just as in the Tesco dataset.
@@ -39,17 +39,21 @@ This dataset enables us to link the geographical areas in London into coordinate
 * **Data visualization** : We will use the GeoPandas library of Python and  Statistical GIS Boundary Files for London dataset to create an interactive Choropleth map of London, where we will be able to visualize the distribution of purchase of each food category based on the area. 
 * **Data analysis** : Once we’ll join the Tesco Dataset to the income one, we will analyze their relationship to extract a correlation if it exists. If we find that those variables are correlated, we will then dig deeper into it by using linear regression as a data analysis tool.
 
-## Organization within the team
+## Proposed timeline
 
-In week 1, Vincent will take care of making the train and test sets. He will also label each datapoint by doing a join with the diabetes prevalence dataset. 
+In week 1, Vincent will take care of making the train and test sets. He will also label each datapoint by doing a join with the children obesity prevalence dataset. 
 Faustine will create the first choropleth map of London, by using the GIS dataset and joining it to the Tesco one.
-Damien will process the income dataset, and compute the correlation between income and food category proportion after joining the two datasets.
+Damien will process the income dataset, and compute the correlation between income and food category proportion per category after joining the two datasets.
 
 In week 2, Vincent will try several Machine Learning algorithms to find the one giving the best results, using hyperparameter tuning.
-Faustine will transform her choropleth map into an interactive one, where one’s will be able to choose the desired food category. 
-Damien will study more precisely the correlation between income and food purchase by making a linear regression. 
+Faustine will transform her choropleth map into an interactive one, where one will be able to choose the desired food category. 
+Damien will study more precisely the correlation between income and food purchase by making a linear regression and analyze the result. 
 
-In week 3, Damien will take care of the report or the data story. Vincent will clean the code, and Faustine will prepare the short video.
+In week 3, we will merge our work. Then, Damien will take care of the report or the data story. Vincent will clean the code, and Faustine will prepare the short video.
+
+## Organization within the team 
+
+![](organization.png)
 
 ## Questions for TAs
 
