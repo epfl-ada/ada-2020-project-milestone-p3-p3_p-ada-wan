@@ -41,15 +41,15 @@ This dataset enables us to link the geographical areas in London into coordinate
 
 ## Proposed timeline
 
-In week 1, Vincent will take care of making the train and test sets. He will also label each datapoint by doing a join with the children obesity prevalence dataset. 
-Faustine will create the first choropleth map of London, by using the GIS dataset and joining it to the Tesco one.
-Damien will process the income dataset, and compute the correlation between income and food category proportion per category after joining the two datasets.
+In week 1, we will take care of making the train and test sets. We will also label each datapoint by doing a join with the children obesity prevalence dataset. 
+Another task will be to create the first choropleth map of London, by using the GIS dataset and joining it to the Tesco one.
+We will also process the income dataset, and compute the correlation between income and food category proportion per category after joining the two datasets.
 
-In week 2, Vincent will try several Machine Learning algorithms to find the one giving the best results, using hyperparameter tuning.
-Faustine will transform her choropleth map into an interactive one, where one will be able to choose the desired food category. 
-Damien will study more precisely the correlation between income and food purchase by making a linear regression and analyze the result. 
+In week 2, we will try several Machine Learning algorithms to find the one giving the best results, using hyperparameter tuning.
+We will have to transform our choropleth map into an interactive one, where one will be able to choose the desired food category. 
+Another task will be to study more precisely the correlation between income and food purchase by making a linear regression and analyze the result. 
 
-In week 3, we will merge our work. Then, Damien will take care of the report or the data story. Vincent will clean the code, and Faustine will prepare the short video.
+In week 3, we will merge our work. Then, we will take care of the report or the data story. We will also have to clean the code, and to prepare the short video.
 
 ## Organization within the team 
 
