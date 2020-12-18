@@ -1,7 +1,7 @@
 # Milestone P3, ADA 2020 Project, P-ADA-wan
 
 ## Title
-A deeper look at the Tesco dataset using the food categories
+A deeper look at the Tesco dataset using food categories
 
 ## Abstract
 
