@@ -1,5 +1,9 @@
 # Milestone P3, ADA 2020 Project, P-ADA-wan
 
+## Data story
+
+You can find our data story on [this website](https://p-ada-wan.github.io/)
+
 ## Title
 A deeper look at the Tesco dataset using food categories
 
@@ -59,9 +63,9 @@ In week 3, we will merge our work. Then, we will take care of the report or the 
 
 **Faustine** explored our data from a geographical point of view using Chloropleths-map visualizations. 
 
-In the last part, **Damien** looked at Mean Income over the city and tried to find correlations with the food comsuption. 
+In the last part, **Damien** looked at Mean Income over the city and tried to find correlations with the food consumption. 
 
-We did our datastory together.
+We did our data story as well as the notebooks merge together.
 
 ## Questions for TAs
 
