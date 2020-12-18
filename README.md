@@ -1,7 +1,7 @@
 # Milestone P3, ADA 2020 Project, P-ADA-wan
 
 ## Title
-Predicting children obesity risk from shopping basket, visualizing food consumption across London and creating a correlation between food purchase and income
+A deeper look at the Tesco dataset using the food categories
 
 ## Abstract
 
@@ -54,6 +54,14 @@ In week 3, we will merge our work. Then, we will take care of the report or the 
 ## Organization within the team 
 
 ![](organization.png)
+
+**Vincent** used machine learning techniques to find the link between food consumption and children obesity
+
+**Faustine** explored our data from a geographical point of view using Chloropleths-map visualizations. 
+
+In the last part, **Damien** looked at Mean Income over the city and tried to find correlations with the food comsuption. 
+
+We did our datastory together.
 
 ## Questions for TAs
 
